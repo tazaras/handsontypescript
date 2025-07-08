@@ -110,7 +110,7 @@ This guide will walk you through installing and configuring Visual Studio Code (
 
 # Install TypeScript
 - You can install TypeScript globally:
-1. npm install -g typescript
+1. npm install -g typescript (others way to install : "npm install typescript@latest -g")
 - Confirm installation:
 1. tsc -v
 
