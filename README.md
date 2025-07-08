@@ -159,3 +159,20 @@ This ensures your development tools use the Linux environment—great for deploy
 2. Docker Desktop (optional): Supports WSL for containerized databases/services.
 3. Yarn: (optional, alternative to npm) npm install -g yarn
 4. Environment Variables: Use .env files and the dotenv npm package.
+
+## Generate Token key and Give permission to git remote machine
+1. Click on your Profile Icon (top-right on Github website)
+2. Settings
+3. Developer settings (bottom-left)
+4. Personal access tokens
+5. fine-grained tokens
+6. "Generate new token"
+7. Write a Token name
+8. Pick an expiration date from the menu or a custom one
+9. Repository access> All repositories
+10. Open "Repository permissions" menu
+11. Look for the "Contents" row
+12. From the menu at right select "Access> Read and Write"
+13. "Generate token" (bottom-left)
+
+
